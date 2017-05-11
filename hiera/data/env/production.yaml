@@ -114,7 +114,7 @@ rjil::trust_selfsigned_cert::cert: '/etc/ssl/certs/vpc.ind-west-1.jiocloudservic
 
 
 #analytics
-flow_log_limit: '240'
+flow_log_limit: '168'
 flow_log_limit_day: "864000"
 flow_log_limit_time: "1800"
 
@@ -449,3 +449,17 @@ ec2api::ec2api_config:
   admin_account/time_limit:
     value:  "%{hiera('flow_log_limit_time')}"
 
+##Flowlog##
+rjil::celery::celery::analytics_query_endpoint: 'http://localhost:8081/analytics/query'
+rjil::celery::celery::dss_account_id: 'vCcwtmPknAZkb699Rqb6EzuJLLYDLljYlGIOGg=='
+rjil::celery::celery::jcs_access_key: 'F32IqFvWlruHDsl1Wn4cnpfkKhL2AzQ26v5RZLrSpn+KmI1o128nnpKjWVAbycX3'
+rjil::celery::celery::jcs_secret_key: 'qB+eG39KrUaLy3abB/Ygd5Jb8L16LJPfFnBzU2F07iZ/knMt5Ay9RTISbOh8YgIp'
+rjil::celery::celery::jcs_vpc_endpoint: 'https://vpc.ind-west-1.jiocloudservices.com'
+rjil::celery::celery::jcs_dss_endpoint: 'https://dss.ind-west-1.jiocloudservices.com'
+rjil::celery::celery::jcs_iam_endpoint: 'https://iam.ind-west-1.jiocloudservices.com'
+rjil::celery::celery::periodic_task_interval: 1800
+rjil::celery::celery::periodic_purge_task_interval: 86400
+rjil::celery::celery::flowlog_purge_days: 7
+rjil::celery::celery::delta_correction_tasks_count: 6
+rjil::celery::celery::time_interval: 1800
+rjil::celery::celery::time_delta: 900

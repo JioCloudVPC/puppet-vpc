@@ -1,5 +1,7 @@
 #All Production Snapshots
 
 vpcbase_snap: 7fa9daf8-529a-4223-b974-0b55e6e29aa9
-contrail_main_snap: 46a47ff9-d67d-4829-8d87-15a1e349253d
+contrail_main_snap: 000098aa-dcb8-4828-9c0d-56b9e3f26acd
 ubuntu_main_snap: 3657a405-c6b3-4648-af1b-2f28cb8324f6
+vpcflowlog_main_snap: 79eca27e-7ab2-40fd-8fd3-48306760c65f
+
