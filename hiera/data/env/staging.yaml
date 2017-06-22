@@ -13,7 +13,7 @@ ssh::server::storeconfigs_enabled: false
 db_connection : "mysql://rwuser:4fEUAG@10.140.214.73/ec2api"
 
 # Account Management
-rjil::system::accounts::active_users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain]
+rjil::system::accounts::active_users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain,sajum,alok,mehul,bhavin,praveend]
 rjil::system::accounts::sudo_users:
   admin:
     users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain]

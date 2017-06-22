@@ -13,7 +13,7 @@ ssh::server::storeconfigs_enabled: false
 
 
 # Account Management
-rjil::system::accounts::active_users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain]
+rjil::system::accounts::active_users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain,sajum,alok,mehul,bhavin,praveend]
 rjil::system::accounts::sudo_users:
   admin:
     users: [vpramo,naveenreddy,saju,dpak,viveksharma,harsh,basil,abhilabh,prashantj,anupam,rahuljain]
